@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wifi"
+    tools:context="com.example.masrawynet.masrawywi_fi.CardActivity">
+
+    <LinearLayout
+        android:id="@+id/line1Title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:drawableLeft="@drawable/ic_wifi_black_24dp"
+            android:drawableRight="@drawable/ic_wifi_black_24dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Masrawy Wi-Fi"
+            android:textColor="#000"
+            android:textSize="24sp"
+
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="387dp"
+        android:layout_height="456dp"
+        android:layout_above="@+id/null"
+        android:layout_alignTop="@+id/line1Title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="23dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/balance"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="استعلام عن الرصيد"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="كرت فئة 3.50"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="كرت فئة 5.00"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="كرت فئة 10.00"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/card15"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="كرت فئة 15.00"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/card25"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="كرت فئة 25.00"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/card20"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="كرت فئة 20.00"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/card30"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="كرت فئة 30.00"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/card50"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="كرت فئة 50.00"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/card100"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/action2btn"
+                android:padding="5dp"
+                android:text="كرت فئة 100.00"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="117dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txtbalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="الرصيد الحالي  :   "
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mylable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
