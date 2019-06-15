@@ -38,7 +38,6 @@
     <ScrollView
         android:layout_width="387dp"
         android:layout_height="456dp"
-        android:layout_above="@+id/null"
         android:layout_alignTop="@+id/line1Title"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="102dp"

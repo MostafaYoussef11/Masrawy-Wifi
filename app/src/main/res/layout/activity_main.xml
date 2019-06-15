@@ -132,7 +132,6 @@
     <LinearLayout
         android:layout_width="397dp"
         android:layout_height="108dp"
-        android:layout_below="@+id/null"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
 
